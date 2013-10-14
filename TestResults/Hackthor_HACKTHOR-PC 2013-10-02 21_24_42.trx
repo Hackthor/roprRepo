@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="13dae4bd-b96d-4580-9cc7-ea8ee3172fa7" name="Hackthor@HACKTHOR-PC 2013-10-02 21:24:42" runUser="Hackthor-PC\Hackthor" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="7aa56a8c-0ebe-4488-ae5b-d612455fbda8">
+    <Deployment runDeploymentRoot="Hackthor_HACKTHOR-PC 2013-10-02 21_24_42">
+      <DeploymentItem filename="d:\users\hackthor\documents\visual studio 2010\Projects\ROPRSolution\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="d:\users\hackthor\documents\visual studio 2010\Projects\ROPRSolution\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="d:\users\hackthor\documents\visual studio 2010\Projects\ROPRSolution\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="d:\users\hackthor\documents\visual studio 2010\Projects\ROPRSolution\ROPRProject\bin\ROPRProject.dll" />
+      <DeploymentItem filename="d:\users\hackthor\documents\visual studio 2010\Projects\ROPRSolution\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="d:\users\hackthor\documents\visual studio 2010\Projects\ROPRSolution\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="d:\users\hackthor\documents\visual studio 2010\Projects\ROPRSolution\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="d:\users\hackthor\documents\visual studio 2010\Projects\ROPRSolution\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="d:\users\hackthor\documents\visual studio 2010\Projects\ROPRSolution\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="d:\users\hackthor\documents\visual studio 2010\Projects\ROPRSolution\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="d:\users\hackthor\documents\visual studio 2010\Projects\ROPRSolution\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="d:\users\hackthor\documents\visual studio 2010\Projects\ROPRSolution\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="d:\users\hackthor\documents\visual studio 2010\Projects\ROPRSolution\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="d:\users\hackthor\documents\visual studio 2010\Projects\ROPRSolution\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-10-02T21:24:42.2368761+02:00" queuing="2013-10-02T21:24:52.0404368+02:00" start="2013-10-02T21:24:52.5494659+02:00" finish="2013-10-02T21:24:55.5536378+02:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="HACKTHOR-PC" outcome="Warning" timestamp="2013-10-02T21:24:46.4231155+02:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'log4net' directly or indirectly referenced by the test container 'd:\users\hackthor\documents\visual studio 2010\projects\roprsolution\roprproject.tests\bin\debug\roprproject.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="HACKTHOR-PC" outcome="Warning" timestamp="2013-10-02T21:24:46.4241156+02:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Org.Mentalis.Security.Cryptography' directly or indirectly referenced by the test container 'd:\users\hackthor\documents\visual studio 2010\projects\roprsolution\roprproject.tests\bin\debug\roprproject.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="About" storage="d:\users\hackthor\documents\visual studio 2010\projects\roprsolution\roprproject.tests\bin\debug\roprproject.tests.dll" id="5a4c5fef-3e72-558d-4042-b31de63bcf62">
+      <Execution id="047433ac-e1f9-4cad-860e-7fa0d437cc3b" />
+      <TestMethod codeBase="d:/users/hackthor/documents/visual studio 2010/Projects/ROPRSolution/ROPRProject.Tests/bin/Debug/ROPRProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ROPRProject.Tests.Controllers.HomeControllerTest, ROPRProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="Index" storage="d:\users\hackthor\documents\visual studio 2010\projects\roprsolution\roprproject.tests\bin\debug\roprproject.tests.dll" id="ca64da83-2376-3be5-eebc-fce2ca0288b3">
+      <Execution id="2a9d4ef1-286b-473e-b740-061fce4ed563" />
+      <TestMethod codeBase="d:/users/hackthor/documents/visual studio 2010/Projects/ROPRSolution/ROPRProject.Tests/bin/Debug/ROPRProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ROPRProject.Tests.Controllers.HomeControllerTest, ROPRProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="Contact" storage="d:\users\hackthor\documents\visual studio 2010\projects\roprsolution\roprproject.tests\bin\debug\roprproject.tests.dll" id="262641f0-b0c9-cb89-1b41-f8c154851dc9">
+      <Execution id="80c76965-f149-4bc0-b17d-074cbded1315" />
+      <TestMethod codeBase="d:/users/hackthor/documents/visual studio 2010/Projects/ROPRSolution/ROPRProject.Tests/bin/Debug/ROPRProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ROPRProject.Tests.Controllers.HomeControllerTest, ROPRProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Contact" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ca64da83-2376-3be5-eebc-fce2ca0288b3" executionId="2a9d4ef1-286b-473e-b740-061fce4ed563" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a4c5fef-3e72-558d-4042-b31de63bcf62" executionId="047433ac-e1f9-4cad-860e-7fa0d437cc3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="262641f0-b0c9-cb89-1b41-f8c154851dc9" executionId="80c76965-f149-4bc0-b17d-074cbded1315" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2a9d4ef1-286b-473e-b740-061fce4ed563" testId="ca64da83-2376-3be5-eebc-fce2ca0288b3" testName="Index" computerName="HACKTHOR-PC" duration="00:00:00.7001067" startTime="2013-10-02T21:24:52.7884796+02:00" endTime="2013-10-02T21:24:55.3136240+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a9d4ef1-286b-473e-b740-061fce4ed563">
+    </UnitTestResult>
+    <UnitTestResult executionId="047433ac-e1f9-4cad-860e-7fa0d437cc3b" testId="5a4c5fef-3e72-558d-4042-b31de63bcf62" testName="About" computerName="HACKTHOR-PC" duration="00:00:00.0283429" startTime="2013-10-02T21:24:55.3436258+02:00" endTime="2013-10-02T21:24:55.3956287+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="047433ac-e1f9-4cad-860e-7fa0d437cc3b">
+    </UnitTestResult>
+    <UnitTestResult executionId="80c76965-f149-4bc0-b17d-074cbded1315" testId="262641f0-b0c9-cb89-1b41-f8c154851dc9" testName="Contact" computerName="HACKTHOR-PC" duration="00:00:00.0248831" startTime="2013-10-02T21:24:55.4056293+02:00" endTime="2013-10-02T21:24:55.4386312+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80c76965-f149-4bc0-b17d-074cbded1315">
+    </UnitTestResult>
+  </Results>
+</TestRun>
